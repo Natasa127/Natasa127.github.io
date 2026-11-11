@@ -1,7 +1,7 @@
 /* Edit the colours and spacing here. All four pages share this stylesheet. */
 :root { --text: #263445; --muted: #687586; --accent: #285e91; --line: #e4e8ee; --background: #fff; }
 * { box-sizing: border-box; }
-html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: var(--text); background: var(--background); line-height: 1.7; }
+html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: var(--text); background: var(--background); line-height: 1.7; scrollbar-gutter: stable; }
 body { margin: 0; }
 a { color: var(--accent); text-decoration: none; }
 a:hover, a:focus-visible { text-decoration: underline; }
